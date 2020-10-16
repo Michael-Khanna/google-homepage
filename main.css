@@ -1,0 +1,217 @@
+#top-bar-left{
+  color: rgb(34, 34, 34);
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 0px;
+  margin-top: 15px;
+  width: 120px;
+  position: absolute;
+  display: block;
+}
+#about{
+  color: rgb(0,0,0);
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  height: 15px;
+  opacity: 0.75;
+  padding-left: 15px;
+  text-decoration-color: rgb(0,0,0);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  width: 33.9844px;
+}
+#store{
+  color: rgb(0,0,0);
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  height: 15px;
+  opacity: 0.75;
+  padding-left: 15px;
+  text-decoration-color: rgb(0,0,0);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  width: 33.0781px;
+}
+#top-bar-right{
+  align-items: center;
+  color: rgb(34,34,34);
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  float: right;
+  height: 30px;
+  justify-content: flex-end;
+  margin-left:0px;
+  margin-right:0px;
+  min-width:181px;
+  margin-top:10px;
+  order: 1;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  text-align: right;
+  user-select: none;
+  width: 200px;
+  z-index: 987;
+}
+#gmail{
+  color: rgb(0,0,0,0.87);
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  height: 24px;
+  line-height: 24px;
+  outline-color: rgba(0,0,0,0.87);
+  text-decoration-line: none;
+  text-decoration-style: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 33.9531px;
+  padding-right:15px;
+}
+#images{
+  color: rgb(0,0,0,0.87);
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  height: 24px;
+  line-height: 24px;
+  outline-color: rgba(0,0,0,0.87);
+  text-decoration-line: none;
+  text-decoration-style: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 33.9531px;
+  padding-right:20px;
+}
+#sign-in{
+  background-color: rgb(112,36,36);
+  color: coral;
+  border-color:rgb(112,36,36);
+  font-family:arial;
+  font-size:13px;
+  font-weight:700;
+  text-decoration-line:none;
+  width:67.344px;
+  height:28px;
+  background-image:-webkit-linear-gradient(top, rgb(112, 36, 36), rgb(112, 36, 36));
+  text-decoration-style: none;
+  outline-style:none;
+  filter:none;
+  border-style:solid;
+  border-radius: 2px;
+  transition: all 0.2s ease-in-out;
+}
+#middle-page-logo{
+position: relative;
+display: flex;
+
+}
+#google-logo{
+    position: relative;
+    display:flex;
+    width:auto;
+    height:92px;
+}
+#middle-page-logo, #google-logo{
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  top:29.50%;
+ }
+ #search-bar-outline{
+   height: 39px;
+   width: 555px;
+   border-color: #dee1e5;
+   background-color: transparent;
+   border-width: 0.5px;
+   border-style: solid;
+   border-radius: 24px;
+   transition: all 0.2s ease-in-out;
+   background-color: transparent;
+   z-index:1;
+   display: flex;
+ }
+ #search-bar{
+   padding: 5px 8px 0 16px;
+   padding: 5px 8px 0 16px;
+   height: 30px;
+   font-size: 16px;
+   width: 460px;
+   font-family: arial, sans-serif;
+   padding: 5px 8px 0 16px;
+   border-color: transparent;
+   background-clip: border-box;
+   background-color: transparent;
+   border-width: 0.5px;
+   outline-color: transparent;
+   border-radius: 24px;
+   z-index:1;
+ }
+ #middle-page-bar{
+   position: relative;
+ }
+ #middle-page-bar, #search-bar,#search-bar-outline{
+   margin: 0;
+   position: absolute;
+    top: 42%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+ }
+#sign-in:hover{
+  box-shadow:
+        0 0 50px #fff,
+        -10px 0 80px rgb(193, 62, 62, 1.5),
+        10px 0 80px #ff4f4f;
+}
+#magnifying-glass{
+  fill: rgb(154, 160, 166);
+  line-height: 24px;
+  height: 20px;
+  width: 20px;
+  color: rgb(154, 160, 166);
+  font-size: 13px;
+  font-family: arial;
+  position: relative;
+  opacity: 40%;
+  flex: 0 0 10px;
+  align-self: flex-start;
+  left: -120px;
+  top: 327px;
+
+}
+#search-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#microphone{
+  position: relative;
+  left: 375px;
+  top: 327px;
+  width: auto;
+  height: 24px;
+}
+#microphone-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#search-bar-outline:hover{
+  box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+}
+#store:hover, #about:hover, #gmail:hover, #images:hover{
+  text-decoration: underline;
+}
