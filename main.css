@@ -199,8 +199,8 @@ display: flex;
 }
 #microphone{
   position: relative;
-  left: 375px;
-  top: 327px;
+  left: 387px;
+  top: 305px;
   width: auto;
   height: 24px;
 }
@@ -214,4 +214,41 @@ display: flex;
 }
 #store:hover, #about:hover, #gmail:hover, #images:hover{
   text-decoration: underline;
+}
+#buttons{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+#google_search{
+  position:relative;
+  border: none;
+  top: 350px;
+  border-radius:3px;
+  width: 127.406px;
+  height: 36px;
+  background-color: rgb(242,242,242);
+  color: rgb(95,99,104);
+  margin-right: 4px;
+}
+#feeling_lucky{
+  position:relative;
+  border: none;
+  top: 350px;
+  border-radius: 3px;
+  background-color: rgb(242,242,242);
+  border-width: 1px;
+  width: 127.406px;
+  height: 36px;
+  color: rgb(95,99,104);
+  font-family: arial;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  margin-left: 4px;
+}
+#google_search:hover, #feeling_lucky:hover{
+  border: solid;
+  border-width: 0.1px;
+  border-color: rgb(198,198,198);
 }
