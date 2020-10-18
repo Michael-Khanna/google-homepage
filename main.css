@@ -13,6 +13,7 @@
   cursor: pointer;
   display: inline-block;
   font-family: arial, sans-serif;
+  border: none;
   font-size: 13px;
   height: 15px;
   opacity: 0.75;
@@ -142,6 +143,7 @@ display: flex;
    background-color: transparent;
    z-index:1;
    display: flex;
+   align-self: center;
  }
  #search-bar{
    padding: 5px 8px 0 16px;
@@ -158,6 +160,7 @@ display: flex;
    outline-color: transparent;
    border-radius: 24px;
    z-index:1;
+   align-self: center;
  }
  #middle-page-bar{
    position: relative;
@@ -212,7 +215,7 @@ display: flex;
 #search-bar-outline:hover{
   box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
 }
-#store:hover, #about:hover, #gmail:hover, #images:hover{
+#store:hover, #about:hover, #gmail:hover, #images:hover, #settings:hover, #terms:hover, #privacy:hover, #advertising:hover, #business:hover, #search-works:hover{
   text-decoration: underline;
 }
 #buttons{
@@ -232,9 +235,6 @@ display: flex;
   margin-right: 4px;
 }
 #feeling_lucky{
-  position:relative;
-  border: none;
-  top: 350px;
   border-radius: 3px;
   background-color: rgb(242,242,242);
   border-width: 1px;
@@ -246,9 +246,145 @@ display: flex;
   font-weight: 400;
   letter-spacing: normal;
   margin-left: 4px;
+  border: none;
+  top: 350px;
+  position:relative;
 }
 #google_search:hover, #feeling_lucky:hover{
   border: solid;
   border-width: 0.1px;
   border-color: rgb(198,198,198);
+}
+#bottom-page{
+  position: absolute;
+  bottom: 0px;
+  width:100%;
+  background-color:#F2F2F2;
+  height:40px;
+  left: 0px;
+  right: 0px;
+  border-top-width: 1px;
+  border-color: #e4e4e4;
+  color: rgb(95,99,104)
+}
+#bottom-page-right{
+  align-items: center;
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  float: right;
+  justify-content: flex-end;
+  position: relative;
+  text-align: right;
+}
+#settings{
+  color: #5F6368;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  border: none;
+  font-size: 14px;
+  height: 15px;
+  opacity: 1;
+  padding-left: 27px;
+  text-decoration-color: rgb(0,0,0z);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  width: 33.9844px;
+  margin-right: 50px;
+  line-height: 40px;
+}
+#terms{
+  color: #5F6368;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  border: none;
+  font-size: 14px;
+  height: 15px;
+  opacity: 1;
+  padding-left: 27px;
+  text-decoration-color: rgb(0,0,0z);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  width: 33.9844px;
+  line-height: 40px;
+}
+#privacy{
+  color: #5F6368;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  border: none;
+  font-size: 14px;
+  height: 15px;
+  opacity: 1;
+  padding-left: 27px;
+  text-decoration-color: rgb(0,0,0z);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  width: 33.9844px;
+  line-height: 40px;
+}
+#bottom-page-left{
+  align-items: center;
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  float: left;
+  justify-content: flex-start;
+  position: relative;
+  text-align: left;
+}
+#advertising{
+  color: #5F6368;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  border: none;
+  font-size: 14px;
+  height: 15px;
+  opacity: 1;
+  padding-right: 27px;
+  text-decoration-color: rgb(0,0,0z);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  width: 33.9844px;
+  line-height: 40px;
+  margin-left: 50px;
+}
+
+
+#business{
+  color: #5F6368;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  border: none;
+  font-size: 14px;
+  height: 15px;
+  opacity: 1;
+  padding-left: 27px;
+  text-decoration-color: rgb(0,0,0z);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  width: 33.9844px;
+  line-height: 40px;
+}
+#search-works{
+  color: #5F6368;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  border: none;
+  font-size: 14px;
+  height: 15px;
+  opacity: 1;
+  padding-left: 45px;
+  text-decoration-color: rgb(0,0,0z);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  line-height: 40px;
 }
